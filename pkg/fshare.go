@@ -41,6 +41,6 @@ func (svc Server) Close() error {
 
 // Share a path over IPFS recursively.  Hidden files are ignored.
 func (svc Server) Share(path string) error {
+	svc.log.Warn("stub call to Server.Share")
 	return nil
-	// return errors.New("Server.Share NOT IMPLEMENTED")
 }
